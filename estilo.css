@@ -10,6 +10,14 @@ body {
   color: #111111;
 }
 
+#minha-imagem {
+  position: absolute;
+  top: 13px;
+  left: 30px;
+  width: 120px;
+  z-index: 100;
+}
+
 /* 1. Cabeçalho */
 header {
   display: flex;
