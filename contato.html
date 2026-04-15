@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo-texto">Rei do Tênis</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="carrinho.html">Carrinho</a></li>
+          <li><a href="contato.html">Fale Conosco</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main style="padding: 40px; display: flex; justify-content: center">
+      <div
+        style="
+          background-color: #fff;
+          padding: 30px;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+          width: 100%;
+          max-width: 500px;
+        "
+      >
+        <h2 style="margin-bottom: 20px; text-align: center">Fale Conosco</h2>
+
+        <form action="#" method="POST" class="formulario-contato">
+          <label for="nome">Nome Completo:</label>
+          <input
+            type="text"
+            placeholder="Digite seu nome"
+            id="nome"
+            name="nome"
+            required
+          />
+
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            placeholder="Digite seu email"
+            id="email"
+            name="email"
+            required
+          />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea
+            id="mensagem"
+            placeholder="Digite uma mensagem"
+            name="mensagem"
+            rows="5"
+            required
+          ></textarea>
+
+          <button
+            type="submit"
+            class="btn-comprar"
+            style="width: 100%; border: none; cursor: pointer"
+          >
+            Enviar Mensagem
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por: Pablo Ernane | Gabriel Otone</p>
+      <p>E-mail: pablooernanee66@gmail.com</p>
+      <p>Telefone: (31) 99999-9999</p>
+    </footer>
+  </body>
+</html>
